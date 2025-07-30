@@ -73,3 +73,53 @@ h6 {
   justify-content: end;
   margin: 0;
 }
+.b {
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+}
+.sub-text {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.b .text {
+  display: flex;
+  margin: 20px;
+  align-self: center;
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+.sub-text img {
+  height: 100px;
+  width: 100px;
+  border-radius: 10%;
+}
+.illustration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 150px;
+  width: 220px;
+  margin-bottom: 20px;
+}
+.c {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quote {
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 200;
+  color: rgb(109, 108, 108);
+  width: 800px;
+}
+.thor {
+  font-weight: 600;
+  font-style: oblique;
+  align-self: self-end;
+  padding-right: 180px;
+}
