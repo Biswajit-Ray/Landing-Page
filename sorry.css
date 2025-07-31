@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: azure;
+  justify-content: space-around;
+  align-items: center;
+}
+p {
+  color: brown;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+div {
+  align-self: flex-end;
+}
